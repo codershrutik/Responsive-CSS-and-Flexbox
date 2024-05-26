@@ -23,13 +23,15 @@ h1 {
     max-width: 300px;
     text-align: center;
     /* font-size: 40px; */
-    flex-basis: 500px;
+    flex-basis: 600px;
     /* flex-grow: 1; */
 }
 
 div:nth-of-type(1){
-    flex-grow: 1;    
+    flex-grow: 1;  
+    flex-shrink: 3;  
 }
 div:nth-of-type(5){
-    flex-grow: 2;    
+    flex-grow: 2; 
+    flex-shrink: 0;   
 }
